@@ -15,6 +15,7 @@ p {
   display: flex;
   background-image: url(images/backgroung/Slide3.PNG);
   background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .half-width {
   width: 50%;
@@ -31,4 +32,30 @@ p {
   padding: 10px 40px;
   border-radius: 5px;
   background-image: linear-gradient(hotpink, deeppink);
+}
+.half-width p {
+  margin-right: 10%;
+}
+.biography {
+  display: flex;
+  background-image: url(images/backgroung/Slide4.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.client h1 {
+  font-size: 30px;
+}
+.client h2 {
+  font-size: 25px;
+}
+.client p {
+  font-size: 15px;
+}
+.client {
+  background-image: url(images/backgroung/Slide5.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.client div {
+  box-shadow: 5px 10px gray;
 }
